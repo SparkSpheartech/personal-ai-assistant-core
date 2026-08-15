@@ -5,6 +5,31 @@
 
 ---
 
+## ❌ The Problem
+
+Most AI assistants are cloud-dependent — your conversations get sent to third-party servers, you pay monthly subscriptions, and you're limited to what the provider offers. When the internet is down or the service changes its terms, your assistant stops working. Privacy-conscious users have no good alternative to Siri, Alexa, or ChatGPT.
+
+**Before:** Cloud-dependent voice assistants (Alexa, Siri, Google) with privacy concerns, monthly fees, no customization, offline dead zones.
+
+**After (AI Agent):** Oynx runs 100% locally on your own machine — LM Studio + DeepSeek R1. Voice commands, text chat, search, memory, and book analysis. No internet needed. No data leaves your computer. No monthly fees.
+
+---
+
+## 🔄 Before vs After
+
+```mermaid
+graph LR
+    subgraph BEFORE["❌ Before"]
+        BM[Cloud AI assistants\nPrivacy concerns\nMonthly subscriptions\nOffline = dead]
+    end
+
+    subgraph AFTER["✅ After (Oynx AI)"]
+        AM[100% local AI\nZero data leaves\nZero monthly cost\nAlways available]
+    end
+
+    BM -->|Oynx AI Agent| AM
+```
+
 ## 🧠 AI Agent Architecture
 
 ```mermaid
